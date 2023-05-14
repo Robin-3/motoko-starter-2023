@@ -20,6 +20,36 @@ English: https://www.loom.com/share/0b2ade90056944afad083ba5f3b07532
 
 Spanish: https://www.loom.com/share/c0eeadbc613a4548868507c990e5dea3
 
+```sh
+dfx deploy day1 --network ic
+```
+
+edit
+
+canister_ids.json
+
+```json
+{
+  "day1": {
+    "ic": "3klix-gyaaa-aaaal-qb3oq-cai"
+  }
+}
+```
+
+```json
+{
+  "day2": {
+    "ic": "3klix-gyaaa-aaaal-qb3oq-cai"
+  }
+}
+```
+
+```sh
+dfx deploy day2 --network ic
+```
+
+etc
+
 ## Testing
 
 For running specs, on a terminal:
@@ -37,5 +67,3 @@ For running specs, on a terminal:
 For running prettier:
 
 `npm run prettier`
-
-
