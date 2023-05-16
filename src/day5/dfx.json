@@ -8,7 +8,7 @@
   "defaults": {
     "build": {
       "args": "",
-      "packtool": "npx mops sources"
+      "packtool": "mops sources"
     }
   },
   "version": 1
